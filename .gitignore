@@ -3,3 +3,4 @@ rocksdb/
 *~
 *.user
 .DS_Store
+*.bak
