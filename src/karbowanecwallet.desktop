@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SoM Wallet
+Comment=SoM wallet
+Exec=karbowallet %U
+Terminal=false
+Type=Application
+Icon=SoM
+MimeType=x-scheme-handler/som;
+Categories=Office;Finance;
+Version=2.1.0
