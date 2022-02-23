@@ -290,7 +290,7 @@ public:
     {
         ConnectionOptionsFrame->setWindowTitle(QApplication::translate("ConnectionOptionsFrame", "Frame", nullptr));
         m_autoRadio->setText(QApplication::translate("ConnectionOptionsFrame", "Auto selection", nullptr));
-        m_autoHelperLabel->setText(QApplication::translate("ConnectionOptionsFrame", "Wallet will connect to local SoM daemon process on port 32348. In case of no local daemon running it will use an in-wallet embedded node implementation.", nullptr));
+        m_autoHelperLabel->setText(QApplication::translate("ConnectionOptionsFrame", "Wallet will connect to local SoM daemon process on port 12898. In case of no local daemon running it will use an in-wallet embedded node implementation.", nullptr));
         m_embeddedRadio->setText(QApplication::translate("ConnectionOptionsFrame", "Embedded", nullptr));
         m_embeddedHelperLabel->setText(QApplication::translate("ConnectionOptionsFrame", "An in-wallet embedded SoM node will be used.", nullptr));
         m_localRadio->setText(QApplication::translate("ConnectionOptionsFrame", "Local daemon", nullptr));
