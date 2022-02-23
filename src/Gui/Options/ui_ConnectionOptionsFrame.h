@@ -299,7 +299,7 @@ public:
         m_remoteRadio->setText(QApplication::translate("ConnectionOptionsFrame", "Remote daemon", nullptr));
         label_2->setText(QApplication::translate("ConnectionOptionsFrame", "Host:", nullptr));
         label_3->setText(QApplication::translate("ConnectionOptionsFrame", "Port:", nullptr));
-        m_remoteHelperLabel->setText(QApplication::translate("ConnectionOptionsFrame", "Wallet will connect to SoM node running on another PC in the local or global network. Please specify IP address or domain name and the port. If masternode is specified additional fee 0.25% but no more than 1 KRB is applied when sending transaction.", nullptr));
+        m_remoteHelperLabel->setText(QApplication::translate("ConnectionOptionsFrame", "Wallet will connect to SoM node running on another PC in the local or global network. Please specify IP address or domain name and the port. If masternode is specified additional fee 0.25% but no more than 1 SoM is applied when sending transaction.", nullptr));
     } // retranslateUi
 
 };
